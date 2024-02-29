@@ -17,7 +17,7 @@ The command for solving clairvoyant problems is similar to learning algorithm
 To get figures from experiment results, you should run this command
 > python draw_std.py
 
-Note that you should <data_filename> and <month_list> in the code file manually.
+Note that you should change <data_filename> and <month_list> in the code file manually.
 
 ## Others
 * You can find all parameter files in [./params](https://github.com/CyrusNiry/cloudcomputing/tree/main/params).
