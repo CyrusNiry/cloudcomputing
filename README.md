@@ -3,7 +3,7 @@
 You can run two types of experiments.  
 ### Learning Algorithm
 Run the following command in the terminal
-> python numerical_study.py <param_filename> <months>
+> python numerical_study.py <param_filename> <months>  
 
 For example, the command corresponding to the algorithm with $T = 12\tau$ and $\lambda\sim U[3,6]$ is
 
@@ -11,7 +11,7 @@ For example, the command corresponding to the algorithm with $T = 12\tau$ and $\
 
 ### Clairvoyant Problem
 The command for solving clairvoyant problems is similar to learning algorithm
-> python claivoyant.py <data_filename> <months>
+> python claivoyant.py <param_filename> <months>  
 
 ### Analyse the results
 To get figures from experiment results, you should run this command
