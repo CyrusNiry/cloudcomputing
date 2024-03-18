@@ -124,7 +124,7 @@ def experiment():
             if l < L[i]:
                 res = min(R+est_beta[i,:]*f(i,s+1,l+1)+(1-est_beta[i,:])*f(i,s+1,l))
             else:
-                res = min(R+f(i,s+1,l))
+                res = 0
             f_state[i, s, l] = res
             return res
         else:
@@ -136,8 +136,6 @@ def experiment():
         elif j_state[i, s, l] == -1:
             if l < L[i]:
                 res = np.argmin(R+est_beta[i,:]*f(i,s+1,l+1)+(1-est_beta[i,:])*f(i,s+1,l))
-            else:
-                res = np.argmin(R+f(i,s+1,l))
             j_state[i, s, l] = res
             return res
         else:
