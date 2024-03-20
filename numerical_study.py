@@ -36,7 +36,7 @@ beta = params['beta']
 tau = 1 * 30 * 24 * 60
 # times = 15
 T = times * tau
-K2 = 1 / 8
+K2 = (1 / 8) * min(arr_lambda)
 eta = int(np.ceil(np.log(T) / K2))
 
 ## other param.
